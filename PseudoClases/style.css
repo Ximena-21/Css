@@ -1,0 +1,33 @@
+.main-nav {
+    margin-top: 10px;
+    /* este estilo (list-style), nos permite quitarle o ponerle otro estilo a las listas, en esta caso quital 
+    las viñetas que ya tienen determinadas las etiquetas uls*/
+    list-style: none;
+    padding-left: 0; /* es una dimension interna que se le da*/
+    background-color: pink ; /*forma de agregar color al fondo*/
+}
+
+
+.main-nav__item {
+    display: inline-block; /*para poner el listado de forma horizontal*/
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px; /*le da redondes a los bordes*/
+    text-decoration: none;
+}
+/*pseudo :clases, se llaman con el uso de los (:) despues de nombrar la clase*/
+.main-nav__item a:hover { /*cuando nos paramos sobre ellos cambia de color*/
+    color: blue;
+}
+
+.main-nav__item a:active{ /*para que cambie el color cuando esta activo*/
+    color: red;
+}
+
+/*pseudo ::elemento = se llaman con (::) despues de nombrar la clase*/
+.main-nav__item a::after{ /*indica despues del elemento ancla (a) agrega este elemeneto*/
+    content: " | "; /*el content agrega la propiedad que hemos elegido*/
+}
