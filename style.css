@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+.cardInformation > img {
+    width: 50%;
+}
+.cardInformation{
+    margin: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding:20px;
+    display: flex;
+}
+
+.cardInformation__containerDescription__button {
+    background-color: rgb(194, 76, 95);
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    position: relative;
+    color: white;
+}
+
+.cardInformation__containerDescription__button:hover {
+    background-color:white ;
+    cursor: pointer;
+    color: rgb(194, 76, 95) ;
+    border: 1px solid rgb(194, 76, 95) ;
+}
+
+.cardInformation__containerDescription {
+    padding-left: 10px;
+}
+
+/* .cardInformation__containerDescription__button::after {
+    content: "cvfd";
+    width: 30px;
+    height: 10px;
+    background-color: blueviolet;
+}
+.cardInformation__containerDescription__button:hover::before {
+    content: "";
+    width: 80%;
+    position: absolute;
+    bottom:-11px;
+    height: 2px;
+    background-color: blueviolet;
+} */
