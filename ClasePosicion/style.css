@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ContainerPrincipal {
+    margin: 0 auto;
+    padding-block: 10%;
+    border: 2px dotted gray ;
+}
+
+.ContainerInf_Image {
+    margin: 0 auto;
+    padding: 20px;
+    min-width: 200px;
+    max-width: 500px;
+    min-height: 300px;
+    border: 1px solid grey;
+    border-radius: 80px 20px;
+    background-color: rgb(221, 148, 160);
+    position: relative;
+    top: 50px;
+    padding: 20px 40px;
+}
+
+.ContainerInf_Image img {
+    margin: 0 auto;
+    width: 80% ;
+    display: flex;
+    border-radius: 20px ;
+}
+
+.ContainerInf_Description {
+
+    min-width: 300px;
+    max-width: 1000px;
+    min-height: 200px;
+    margin: 0 auto;
+    padding-top: 80px;
+    border: 2px solid rgb(127, 182, 149) ;
+    background-color:  rgb(152, 216, 178);
+    display: flex;    
+}
+
+.ContainerInf_Description p {
+    color: black;
+    font-size: 30px;
+    display: inline-block
+}
+
+h1 {
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center
+}
+/*importa ocmo uno ponga los esilos porque puse el text arriba de tood y no centraba sino hacia mas pequeño el titulo*/
+
+/* Estilos aplicados al ejemplo de clase de posicion */
+/* .parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+.box {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+#two {
+    background-color: bisque;
+} */

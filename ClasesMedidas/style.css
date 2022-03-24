@@ -1,0 +1,38 @@
+* {  /*estructura siempre para hacer estilos y quitar estilos predeterminados del navegador*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html { /*´para usar el rem*/
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 1.6rem; /*1 rem = a 10 px*/
+}
+
+main div {
+    font-size: 1.6rem;
+}
+
+/*ESTILO APLICADO PARA EJEMPLO CON EM*/
+/* .text-container {
+    font-size: 1em; /* em es un acronico de elemento y va a tomar el tamaño de fuente que tenga el padre directo */
+/* }
+.text-container div {
+    font-size: 1.5em;
+} */ 
+/* em no es de las mejores medidas porque si tenemos una estructura mas larga se nos va a perder el control del tamaño de l afuenet  */
+
+
+
+/* estilo aplicado al ejempo de medidas usnado width y height */
+/* main {
+    background-color: red;
+    width: 100%;
+    height: 600px;
+}
+p {
+    font-size: 16px;
+} */

@@ -102,8 +102,51 @@
          <ul> Todos los estilos que se le apliquen a las (.class)</ul>
          <ul> Todos los estilos que se le apliquen a selectores como etiquetas de html (tag)</ul> 
     </li>
-    <li> 
-        <p>
-        </p>
+    
+</ol>
+
+## _Combinadores_
+<p> Ayudar a tener una especificidad mas certera</P>
+
+<ol>
+    <li> div + p {...}   
+         <p> Hermano adyacente cercano (Adjacent sibling) </p>
     </li>
+    <li> div ~ p {...}  
+         <p>Hermano general (General sibling)</p>
+    </li>
+    <li> div > p {...}
+         <p>Hijo (Child)</p>
+    </li>
+    <li> div p {...}
+         <p>Desendiente (Decentdant)</p>
+    </li>   
+</ol>
+
+## _Medidas_
+
+   ### __Minimo y Maximo__ ###
+
+<ol>
+    <li> Min-width   
+         <p>Delimita hasta lo minimo que puede llegar un contenido ejemplo section </p>
+    </li>
+    <li> Max-width 
+         <p>Limitar el crecimiento de un contenedor</p>
+    </li>
+
+<p>Nos ayuda a hacer ciertos contenedores de forma flexible</p>
+</ol>
+
+  ## _Posicion_ ##
+
+<ol>
+    <li> Statick   
+         <p> Por defecto</p>
+    </li>
+    <li> Absolute </li>
+    <li> Relative </li>
+    <li> Fixed </li>
+    <li> Sticky </li>
+     <p> Se puede usar el botton, left o right, en todos menos Static</p>
 </ol>

@@ -1,0 +1,30 @@
+
+div p {     /*todas las eqtiquetas contenidas dentro del div*/
+    color: yellowgreen;
+}
+
+/* Estilo aplicado al ejemplo de hijo directo */
+/* div > p {
+    color: yellowgreen;
+} */
+
+
+/* estilo aplicado al ejemplo de hermanos generales */
+/* h2 ~ p {
+    color: blue;
+} */
+
+
+/* se uso para aplaicar estilo a los hermanos cercanos */
+/*  h2 + p {    /*Quiero ponerle color a todas las etiquetas h2 que sean cercanas a una etiqueta parrafo */
+/*    color: red;
+}
+ */
+
+
+/* Lo use para hacer si tenia varias cajas y no queria uq e atodas se les aplicara */
+/* .cajauno h2 + p {  Quiero ponerle color a todas las etiquetas h2 que sean cercanas a una etiqueta parrafo
+    color: red;
+/* }
+ */
+

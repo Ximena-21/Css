@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+section {
+    width: 80%; 
+    min-width: 320px;
+    max-width: 500px; /*delimita el crecimiento*/
+    /* para usar el min y max en el widrh,se nececita un wid base en porcentaje */
+    height: 500px;
+    /* Al agregarle mucho texto este se sale del contenedore, se le puede agregar un min a este height,
+    lo cual se traduciria tu altura minima sera 500px, pero si tu contenido se excede crece con tu 
+    hasta que el mismo deje de crecer */
+    margin: 0 auto;
+    background-color: red;
+}
