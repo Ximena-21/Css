@@ -3,61 +3,42 @@
     margin: 0;
     padding: 0;
 }
-
-html {
-    font-size: 62.5%; /*para poder usar los rem*/
-}
-
-body {
-    font-size: 1.6rem;
-}
-
-.block-top {
-    background-color: rgb(209, 64, 88);
-/*     padding: 20px;
-    display: inline-block;
-    list-style: none;     */
-}
-
-img {
-    width: 10% ;
-    border-radius: 20px ;
-}
-
-.block-top li {
-    display: inline-block;
-    font-size: 20px;
-    margin: 10px 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    position: relative;
-}
-.block-information {
-    background-color: rgb(69, 165, 133);
+.header_pag {
+    border: 0.1rem solid pink;
     display: flex;
 }
+.header_nav {
+    list-style: none;
+    
+    
+}
+.header_nav_item {
+    display: inline-block;
+    align-items: flex-end;
+}
+
+
+.container {
+    border: 0.1rem solid black;
+    display: flex;
+    background-color: antiquewhite;
+   /*  flex-wrap: wrap */
+}
+
 .box {
-    /*  ; */
-    display: block;
-    background-color: rgb(125, 233, 197);
+    border: 0.2rem double rgb(221, 28, 28);
     width: 10rem;
-    height: 10rem
-/*     width: 100px;
-    height: 100px; */
-}
-
-.general-information {
-    background-color: rgb(250, 215, 227);
-/*     display: inline-block;
-    position:fixed;
-    width: 100%;
-    height: 10%; */
-
-}
-.block_aditional {
-    background-color: rgb(240, 221, 135);
-/*     display: inline-block;
-    min-width: 200px;
-    max-width: 1000px;
-    min-height: 20px; */
-}
+    height: 10rem;
+     /* flex-basis: 10rem; */
+    /*  flex-grow: 1; */
+     /*ayuda a que reposicionar para que se adopten los tamaños*/
+ }
+ .container_section {
+    width: 70%;
+    border: 0.2rem dashed grey;
+ /*    justify-content: flex-end; */
+ }
+ .footer {
+    border: 0.1rem solid rgb(20, 155, 49);
+    flex-direction: row;
+ }

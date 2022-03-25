@@ -215,4 +215,21 @@
     <li> Monospace </li>
 
 </ol>
-    
+
+   ## _Responsive Design_ ##
+
+   <p>Los proyectos se vena bien en todos los dispositivos</p>
+
+   ### __Media Queries__ ###
+
+   <p>Reposicionar elementos, redimensionar contenedores )</p>
+   <p>mobile first / only ---- (arroba media(min-width) </p>
+   <p>aunque se puede hacer desde el css aplicando la media, la forma correcta es hacerlo desde el html,
+    en el head, mediante link </p>
+    <p> link href=".style.css" rel="Stylesheet" , estilospara movil</p>
+    <p> link href=".tablet.css" rel="Stylesheet" media="screen and (min-width: 768px) , y para destock seria 1024px</p>
+
+### __paginas para saber las dimensiones de diferentes dispositivos__ ###
+
+<p>mydevice.jo</p>
+
