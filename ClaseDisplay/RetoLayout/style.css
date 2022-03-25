@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; /*para poder usar los rem*/
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.block-top {
+    background-color: rgb(209, 64, 88);
+/*     padding: 20px;
+    display: inline-block;
+    list-style: none;     */
+}
+
+img {
+    width: 10% ;
+    border-radius: 20px ;
+}
+
+.block-top li {
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+.block-information {
+    background-color: rgb(69, 165, 133);
+    display: flex;
+}
+.box {
+    /*  ; */
+    display: block;
+    background-color: rgb(125, 233, 197);
+    width: 10rem;
+    height: 10rem
+/*     width: 100px;
+    height: 100px; */
+}
+
+.general-information {
+    background-color: rgb(250, 215, 227);
+/*     display: inline-block;
+    position:fixed;
+    width: 100%;
+    height: 10%; */
+
+}
+.block_aditional {
+    background-color: rgb(240, 221, 135);
+/*     display: inline-block;
+    min-width: 200px;
+    max-width: 1000px;
+    min-height: 20px; */
+}

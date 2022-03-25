@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; /*para poder usar los rem*/
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap
+   /*  align-items: center;
+    height: 50vh; */ /*vh que el tamñao siempre sea el 50% de la pamtalla*/
+    /* flex-direction: column */; /*propiedad que permite reacomodar como se quiera los contenedores, ya sea en columnas, o filas*/
+   /*  flex-wrap: wrap;  *//*permite que cuando se haga mas pqña la pantalla se reacomoden los contenedores*/
+    /* justify-content: space-evenly; */ /*ayuda a (center) centrar sin preocuparnos por el margin, (space-around) hace un espacio entre los div, (space-evenly) pone espacios del mismo tamaño desde el inicio*/
+}
+
+.box {
+   /*  width: 10rem; */
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+    /*ayuda a que reposicionar para que se adopten los tamaños*/
+}
+
+.box1 {
+    background-color: aqua;
+    /* order: 1; */ /*le da orden a los contenedores segun lo indique, pero los que no tienen se alinean a la izq*/
+    /* flex-grow:  1; *//*hace que este contenedor tome el espacio que queda del contendero padre, y se ajuste al agrandar o empequeñar la pantalla mientras los demas conservan su tamaño definido*/
+}
+.box2 {
+    background-color: rgb(124, 10, 118);
+   /*  flex-grow:  1;*/
+} 
+.box3 {
+    background-color: rgba(7, 190, 37, 0.651);
+    /* order: 4; */
+}
+.box4 {
+    background-color: rgb(224, 248, 3);
+    
+}
+.box5 {
+    background-color: rgba(158, 26, 37, 0.822);
+   /*  order: 2; */
+}
+.box6 {
+    background-color: rgb(250, 7, 149);
+    /* order: 5; */
+}

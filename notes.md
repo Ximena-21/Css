@@ -150,3 +150,69 @@
     <li> Sticky </li>
      <p> Se puede usar el botton, left o right, en todos menos Static</p>
 </ol>
+
+## _Display_ ##
+
+<p></p>
+
+## _Display flex_ ##
+
+<p>por defecto los acomoda en linea</p>
+<<li> Flex-direction</li>    
+         <p> Te permite elegir la alineación de los elementos hijos sea en vertical (column) u horizontal (row), esta alineación viene por defecto.</p>
+<li> Flex-wrap</li>   
+         <p> Permite que un elemento cuyo tamaño sea mayor al de la página haga un salto de línea sin salirse del contenedor, pues este se agranda.</p>
+<li> Order</li>   
+         <p> Especifica el orden utilizado para disponer los elementos en su contenedor flexible. Los elementos estarán dispuestos en orden ascendente según el valor de order.</p>
+<li> Flex-grow</li>   
+         <p> Especifica qué cantidad del espacio restante dentro del contenedor flexible, debería ocupar el ítem en cuestión según su dirección principal, esta última determinada por flex-direction.</p>
+<li> Flex-basis</li>   
+         <p> Especifica el tamaño inicial de un elemento flexible.</p>
+
+<ul> justify-content
+    <li>Flex-start</li>
+        <p>Alinear items del flex desde el comienzo.</p>
+     <li>Flex-end</li>
+        <p>Alinear items desde el final.</p>
+    <li>Center</li>
+        <p>Alinear items en el centro del contenedor.</p>
+    <li>Space-between:</li>
+        <p>Distribuir items uniformemente, el primer items al inicio, el último al final.</p>
+    <li>Space-around</li>
+        <p>Distribuir items uniformemente, estos tienen el mismo espacio a su alrededor.</p
+    <li>Space-evenly</li>
+        <p>Distribuye uniformemente el espacio entre los items y su alrededor..</p>
+        
+</ul>
+
+<ul> Align-items
+    <p>irve para alinear los elementos hijos de forma vertical.</p> 
+    <li>Flex-start</li>
+        <p>Se alinean desde arriba</p>
+     <li>Flex-end</li>
+        <p>Se alinean desde abajo.</p>
+    <li>Center</li>
+        <p>Alinea los item al centro del eje y del contenedor.</li>
+    <li>Stretch</li>
+        <p>Estira el alto de los elementos hijos al 100% del alto del elemento padre</p>
+    <li>Baseline</li>
+        <p>Escala el alto del elemento al tamaño de su contenido.</p>
+        
+</ul>
+
+## _Variables_ ##
+  
+ <p> Nos servirán para guardar valores que reiteradamente ocuparemos en el desarrollo de nuestro proyecto. Realmente se le ve mas utilidad en proyectos grandes. Pero claro, es importante conocerlo desde ahora. Se declara dentro de :root ta que serán variables globales.</p>
+
+  ## _Font (fuente)-Web fonts_ ##
+
+<p>para descargar fuentes una pag (google fonts)</p>
+<ol>
+    <li> Serif </li>  
+         <p> Por defecto</p>
+    <li> Sans-serif </li>
+    <li> Cursive </li>
+    <li> Monospace </li>
+
+</ol>
+    
